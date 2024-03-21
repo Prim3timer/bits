@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+#stage {
+  width: auto;
+}
+
 .flexer li {
   text-decoration: none;
   display: block;

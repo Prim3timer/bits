@@ -168,7 +168,7 @@ function App() {
              />  :    <CreateExcercise/>
              
               return (
-                <div>
+                <div id='stage'>
                   <ControlPanel 
                   changer={changer}
                   isEdit
