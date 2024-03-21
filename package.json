@@ -1,6 +1,7 @@
 {
   "name": "norman",
   "version": "0.1.0",
+  "homepage": "https://prim3timer.github.io/bits",
   "private": true,
   "dependencies": {
     "axios": "^1.6.8",
@@ -12,6 +13,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
