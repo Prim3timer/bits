@@ -22,7 +22,7 @@ useEffect(()=> {
     console.log(isWhat)
 }, [])
 const handleEdit = async (e) => {
-    e.preventDefault()
+    // e.preventDefault()
       const excercise = {
         _id: id,
           username,
@@ -40,7 +40,7 @@ const handleEdit = async (e) => {
 return (
     <div>
         <h2>Edit</h2>
-        <form onSubmit={handleEdit} >
+        <form onSubmit={(e)= e.preventDefault()} >
             <label>username:</label>
             <input
             value={username}
@@ -68,7 +68,7 @@ return (
            selected={date}
            onChang={(e)=> setDate(e.target.value)}/>
            <br/>
-           <button type="submit" className='pop'>Edit Excercise
+           <button onClick={handleEdit} className='pop'>Edit Excercise
            </button>
         </form>
     </div> 
