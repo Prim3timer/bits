@@ -40,7 +40,7 @@ const handleEdit = async (e) => {
 return (
     <div>
         <h2>Edit</h2>
-        <form onSubmit={(e)= e.preventDefault()} >
+        <form onSubmit={(e)=> e.preventDefault()} >
             <label>username:</label>
             <input
             value={username}
