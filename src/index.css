@@ -52,8 +52,8 @@ ul {
   display: flex;
   width: 100%;
   list-style-type: none;
-  background-color: teal;
-  /* background-color: red; */
+  /* background-color: teal; */
+  background-color: red;
   padding: .5rem;
 }
 /* a td {
