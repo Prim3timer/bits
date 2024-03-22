@@ -12,9 +12,9 @@ marker, setMarker, isLoading}) =>{
         setMarker(id)
     }
   
-    let watcher = isEdit ===  true ? <EditExcercise id={marker} 
+    let watcher = isEdit ? <EditExcercise id={marker} 
     setIsWhat={setIsWhat}  isWhat={isWhat}/>
-    : isEdit === false  ? <Content 
+    :  <Content 
         excercises={excercises.filter((ex) => ex.username.toLowerCase().includes(search.toLowerCase()))}
         removeExcercise={removeExcercise}
         setIsWhat={setIsWhat}
@@ -25,7 +25,7 @@ marker, setMarker, isLoading}) =>{
         setSearch={setSearch}
         isLoading={isLoading}
         
-    /> : <EditExcercise/>
+    /> 
 
     return (
         <div>
