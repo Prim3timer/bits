@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useEffect, useState} from 'react'
 import DatePicker from 'react-datepicker'
 
-let EditExcercise = ({id,isWhat}) => {
+let EditExcercise = ({id,isWhat, setIsWhat}) => {
     let [username, setUsername] = useState()
     let [description, setDescription] = useState()
     let [duration, setDuration] = useState()
@@ -34,7 +34,7 @@ const handleEdit = async (e) => {
    
       const response = await  axios.put(`https://dosal.onrender.com/excercises/update/${id}`, excercise)
       console.log(response.data)
-      window.location = '/'
+      setIsWhat('getExcercises')
     
 }
 return (
