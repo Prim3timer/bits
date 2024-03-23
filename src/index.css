@@ -22,6 +22,8 @@ code {
   width: auto;
 }
 
+
+
 .flexer li {
   text-decoration: none;
   display: block;
@@ -65,7 +67,9 @@ table tbody h1 {
 
 ul {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
+   width: 30vw;
+  min-width: 500px;
   list-style-type: none;
   background-color: teal;
   padding: .5rem;
@@ -177,7 +181,7 @@ article {
 }
 
 @media only screen and (max-width: 600px) {
-   #exercise-list {
+   #exercise-list .flexer {
     width: 80vw;
   }
 }
