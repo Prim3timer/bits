@@ -17,12 +17,11 @@ excercises,
  setExcercises,
  headsUp
 }) => {
-    
-    
     return (
-        <div>
+        <div className='create-exercise'>
+            <h2>Create Excercise Log</h2>
             <form onSubmit={handleSubmit} >
-                <label>username:</label>
+                <label>username</label><br/>
                 <select
                 value={username}
                 onChange={(e)=> setUsername(e.target.value)}
@@ -36,7 +35,7 @@ excercises,
                     })}
                 </select>
                  <br/>
-                 <label>Description:</label>
+                 <label>Description</label>
                  <br/>
                 <input
                 name="description"

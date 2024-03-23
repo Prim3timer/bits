@@ -6,7 +6,8 @@ let Content = ({excercises, setExcercises,
   removeExcercise,
 // setMarker,
 // marker,
-// setIsWhat,
+setIsWhat,
+isWhat,
 isEdit,
 setIsEdit,
 changeMarker,
@@ -18,9 +19,10 @@ isLoading
  
 
 const goToEdit = (id )=> {
-    setIsEdit(true)
+  // setIsWhat('editExcercise')
+  setIsEdit(true)
     changeMarker(id)
-    console.log(isEdit )
+    console.log(isWhat)
 }   
     return (
       
@@ -45,12 +47,12 @@ const goToEdit = (id )=> {
 
 
                 <tr id={excercise._id} >
-                    <td>{excercise.username}</td>
-                <td>{excercise.description}</td>
+                    <td className='username'>{excercise.username}</td>
+                <td className='description'>{excercise.description}</td>
                 <td className='duration'>{excercise.duration}</td>
-                <td>{excercise.date.substring(0, 10)}</td>
+                <td className='date'>{excercise.date.substring(0, 10)}</td>
                 {/* <td>{excercise.date}</td> */}
-                <td  style={{color: 'dodgerblue'}} onClick={() => removeExcercise(excercise._id)}>Remove</td>
+                <td  className='remove' style={{color: 'dodgerblue'}} onClick={() => removeExcercise(excercise._id)}>Remove</td>
                 <td className='edit' type='submit' onClick={()=> goToEdit(excercise._id)} 
                 >Edit</td>
                 </tr>

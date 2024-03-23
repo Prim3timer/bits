@@ -2,11 +2,17 @@ import axios from 'axios'
 import { useEffect, useState} from 'react'
 import DatePicker from 'react-datepicker'
 
-let EditExcercise = ({id,isWhat, setIsWhat}) => {
+let EditExcercise = ({
+    id,
+    isWhat,
+    setIsWhat
+}) => {
     let [username, setUsername] = useState()
     let [description, setDescription] = useState()
     let [duration, setDuration] = useState()
     let [date, setDate] = useState()
+    const [isDone, setIsDone] = useState(false)
+    
 
 console.log(id)
 const getCurrentExcercise = async() => {
@@ -34,8 +40,8 @@ const handleEdit = async (e) => {
    
       const response = await  axios.put(`https://dosal.onrender.com/excercises/update/${id}`, excercise)
       console.log(response.data)
-      setIsWhat('getExcercises')
-    
+      setIsDone(true)
+      setTimeout(()=> {setIsDone(false)}, 3000)
 }
 return (
     <div>
@@ -71,6 +77,7 @@ return (
            <button onClick={handleEdit} className='pop'>Edit Excercise
            </button>
         </form>
+        {isDone ? <h2>User Edited</h2>   : ''}
     </div> 
 ) 
 }

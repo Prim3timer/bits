@@ -71,13 +71,14 @@ function App() {
                 }     
                 
               }
+          
               useEffect(()=> {
                 fetchUsers()   
               }, [])
               const changer = (stats)=> {
                 setIsWhat(stats)
                 setIsEdit(false)
-                console.log(isEdit)
+                console.log(isWhat)
                }   
               
               const handleSubmit = async (e)=> {
@@ -165,7 +166,23 @@ function App() {
               isEdit={isEdit}
               setIsEdit={setIsEdit}
               isLoading={isLoading}
-             />  :    <CreateExcercise/>
+             />   :
+             <CreateExcercise
+             users={users}
+             setUsers={setUsers}
+             handleSubmit={handleSubmit}
+             username={username}
+             description={description}
+             setDescription={setDescription}
+             duration={duration}
+             setDuration={setDuration}
+             date={date}
+             setDate={setDate}
+             setUsername={setUsername}
+             excercises={excercises}
+             setExcercises={setExcercises}
+             headsUp={headsUp}
+             />
              
               return (
                 <div id='stage'>

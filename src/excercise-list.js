@@ -4,10 +4,10 @@ import EditExcercise from './editExcercise'
 import Content from './Content'
 let Excercises = ({excercises, removeExcercise,
 setIsWhat, isWhat,
-marker, setMarker, isLoading}) =>{
+marker, setMarker, isLoading,
+isEdit, setIsEdit}) =>{
   
     const [search, setSearch] = useState('')
-    const [isEdit,setIsEdit] = useState(false)
     const changeMarker = (id)=> {
         setMarker(id)
     }
@@ -18,18 +18,17 @@ marker, setMarker, isLoading}) =>{
         excercises={excercises.filter((ex) => ex.username.toLowerCase().includes(search.toLowerCase()))}
         removeExcercise={removeExcercise}
         setIsWhat={setIsWhat}
+        isWhat={isWhat}
         isEdit={isEdit}
         setIsEdit={setIsEdit}
         changeMarker={changeMarker}
         search={search}
         setSearch={setSearch}
-        isLoading={isLoading}
-        
+        isLoading={isLoading}  
     /> 
 
     return (
-        <div>
-           
+        <div id='exercise-list'> 
             {watcher}
         </div>
     )

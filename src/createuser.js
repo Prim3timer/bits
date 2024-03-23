@@ -24,18 +24,13 @@ let CreateUser = ({users, setUsers, setIsWhat}) => {
         }, 3000)
 
     } else {
-
-       const response = await axios.post('https://dosal.onrender.com/users/post', user)
-       
+       const response = await axios.post('https://dosal.onrender.com/users/post', user)  
         setIsWhat('getUsers')
-    }
-        
-    
+    }  
         setUsername('')
-        
     }
     return (
-        <div>
+        <div className="create-user">
             <h3>Create User</h3>
             <form onSubmit={handleSubmit} >
                 <label>username:</label>
