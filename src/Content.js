@@ -42,7 +42,7 @@ const goToEdit = (id )=> {
                 <th>date</th>
                 <th colSpan={2} className='actions'>actions</th>
             </tr>
-          {isLoading ? <h1>Loading...</h1> : excercises.length ? excercises.map((excercise) => {
+          {isLoading ? <h2>Loading...</h2> : excercises.length ? excercises.map((excercise) => {
             return (
 
 
