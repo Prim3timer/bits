@@ -141,7 +141,9 @@ function App() {
               
             let checker = isWhat === 'createUser'? <CreateUser users={users}
             setIsWhat={setIsWhat} setUsers={setUsers} /> : isWhat ==='getUsers' ?   <GetUsers users={users}
-            handleDelete={handleDelete}/> : isWhat ==='createExcercise' ?  <CreateExcercise
+            handleDelete={handleDelete}
+            isLoading={isLoading}
+            setIsLoading={setIsLoading}/> : isWhat ==='createExcercise' ?  <CreateExcercise
             users={users}
             setUsers={setUsers}
             handleSubmit={handleSubmit}
@@ -155,7 +157,9 @@ function App() {
             setUsername={setUsername}
             excercises={excercises}
             setExcercises={setExcercises}
-            headsUp={headsUp}
+            // isLoading={isLoading}
+            // setIsLoading={setIsLoading}
+            // headsUp={headsUp}
           />
               : isWhat === 'getExcercises' ? <Excercises excercises={excercises}
               setIsWhat={setIsWhat}

@@ -33,7 +33,7 @@ let CreateUser = ({users, setUsers, setIsWhat}) => {
         <div className="create-user">
             <h3>Create User</h3>
             <form onSubmit={handleSubmit} >
-                <label>username:</label><br/>
+                <label>username:</label>
                 <input
                 type="text"
                 required

@@ -177,7 +177,7 @@ article {
 }
 
 @media only screen and (max-width: 600px) {
-   #exercise-list .flexer {
+   #exercise-list {
     width: 80vw;
   }
 }
