@@ -12,11 +12,7 @@ code {
     monospace;
 }
 
-#root {
-  width: 100%;
-  /* width: 30vw;
-  min-width: 500px; */
-}
+
 
 #stage {
   width: auto;
@@ -68,7 +64,7 @@ table tbody h1 {
 ul {
   display: flex;
   /* width: 100%; */
-   width: 30vw;
+   /* width: 30vw; */
   min-width: 500px;
   list-style-type: none;
   background-color: teal;
