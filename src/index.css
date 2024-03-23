@@ -14,6 +14,8 @@ code {
 
 #root {
   width: 100%;
+  /* width: 30vw;
+  min-width: 500px; */
 }
 
 #stage {
@@ -23,13 +25,13 @@ code {
 .flexer li {
   text-decoration: none;
   display: block;
-  background-color: tan;
+  font-size: 1.5rem;
   /* width: 100%; */
-  margin-left: 1rem;
-  width: 10rem;
+  margin-left: 5%;
+  /* width: 10rem; */
   padding: .5rem;
   border-radius: 5px;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -41,6 +43,10 @@ code {
 
 #user {
   margin-left: 25rem;
+}
+.is-done {
+ padding: .5rem;
+ color: green;
 }
 .username {
   width: 10rem;
@@ -84,6 +90,9 @@ ul li:hover{
   color:dodgerblue;
 
 }
+.load-user {
+  color: green;
+}
 table {
   margin: auto;
   margin-bottom: 2rem;
@@ -93,8 +102,8 @@ table {
   min-width: 12rem;
 }
 tr td{
-  /* border: 1px solid black; */
-  border: 1px solid brown;
+  border: 1px solid black;
+  /* border: 1px solid brown; */
   padding: 10px;
   /* width: 10rem; */
   text-align: center;
@@ -165,5 +174,11 @@ article {
 }
 .remove {
   min-width: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    width: 80vw;
+  }
 }
 

@@ -5,35 +5,41 @@ import DatePicker from 'react-datepicker'
 let EditExcercise = ({
     id,
     isWhat,
-    setIsWhat
+    setIsWhat,
+    isLoading,
+    setIsLoading
 }) => {
     let [username, setUsername] = useState()
     let [description, setDescription] = useState()
     let [duration, setDuration] = useState()
     let [date, setDate] = useState()
     const [isDone, setIsDone] = useState(false)
+    const [feedBack, setFeedBack] = useState(null)
     
-
-console.log(id)
-const getCurrentExcercise = async() => {
-       let response = await axios.get(`https://dosal.onrender.com/excercises/${id}`)
-       console.log(response.data)
-       setUsername(response.data.username)
-       setDescription(response.data.description)
-       setDuration(response.data.duration)
-    setDate(response.data.date)
+    const getCurrentExcercise = async() => {
+        try {
+            setIsLoading(true)
+            let response = await axios.get(`https://dosal.onrender.com/excercises/${id}`)
+            setFeedBack(response.data)
+            if (response) setIsLoading(false)
+            setUsername(response.data.username)
+            setDescription(response.data.description)
+            setDuration(response.data.duration)
+            setDate(response.data.date) 
+    } catch (error) {
+        console.log(error)
+    }
 }
 useEffect(()=> {
     getCurrentExcercise()
-    console.log(isWhat)
+   
 }, [])
 const handleEdit = async (e) => {
     // e.preventDefault()
       const excercise = {
         _id: id,
-          username,
-          description,
-          duration,
+          description: description ? description : feedBack.description,
+          duration: duration ? duration : feedBack.duration,
           date
 
       }
@@ -45,9 +51,11 @@ const handleEdit = async (e) => {
 }
 return (
     <div>
-        <h2>Edit</h2>
+        {isLoading ? <h2 className='load-user'>Loading user dets...</h2> : ''}
+        <h2>Edit User</h2>
+        {isDone ? <h2 className='is-done'>User Edited</h2>   : ''}
         <form onSubmit={(e)=> e.preventDefault()} >
-            <label>username:</label>
+            <label>username:</label><br/>
             <input
             value={username}
             />
@@ -68,16 +76,16 @@ return (
             onChange={(e)=> setDuration(e.target.value)}
             />
             <br/>
-            <label>Date</label>
+            <label>Date:</label>
             <br/>
            <DatePicker
            selected={date}
            onChang={(e)=> setDate(e.target.value)}/>
            <br/>
-           <button onClick={handleEdit} className='pop'>Edit Excercise
+           <button onClick={handleEdit} className='pop'>Update Info
            </button>
         </form>
-        {isDone ? <h2>User Edited</h2>   : ''}
+       
     </div> 
 ) 
 }

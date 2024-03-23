@@ -166,6 +166,7 @@ function App() {
               isEdit={isEdit}
               setIsEdit={setIsEdit}
               isLoading={isLoading}
+              setIsLoading={setIsLoading}
              />   :
              <CreateExcercise
              users={users}

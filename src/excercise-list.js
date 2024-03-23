@@ -5,6 +5,7 @@ import Content from './Content'
 let Excercises = ({excercises, removeExcercise,
 setIsWhat, isWhat,
 marker, setMarker, isLoading,
+setIsLoading,
 isEdit, setIsEdit}) =>{
   
     const [search, setSearch] = useState('')
@@ -13,7 +14,8 @@ isEdit, setIsEdit}) =>{
     }
   
     let watcher = isEdit ? <EditExcercise id={marker} 
-    setIsWhat={setIsWhat}  isWhat={isWhat}/>
+    setIsWhat={setIsWhat}  isWhat={isWhat}
+    isLoading={isLoading} setIsLoading={setIsLoading}/>
     :  <Content 
         excercises={excercises.filter((ex) => ex.username.toLowerCase().includes(search.toLowerCase()))}
         removeExcercise={removeExcercise}
