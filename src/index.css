@@ -175,10 +175,10 @@ article {
 .remove {
   min-width: 2rem;
 }
-
+/* 
 @media only screen and (max-width: 600px) {
    #exercise-list {
     width: 80vw;
   }
-}
+} */
 

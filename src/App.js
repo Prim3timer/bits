@@ -159,7 +159,7 @@ function App() {
             setExcercises={setExcercises}
             // isLoading={isLoading}
             // setIsLoading={setIsLoading}
-            // headsUp={headsUp}
+            headsUp={headsUp}
           />
               : isWhat === 'getExcercises' ? <Excercises excercises={excercises}
               setIsWhat={setIsWhat}

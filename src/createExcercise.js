@@ -21,6 +21,7 @@ excercises,
         <div className='create-exercise'>
             <h2>Create Excercise Log</h2>
             <form onSubmit={handleSubmit} >
+            <h5 style={{margin: '1rem 0', color: 'red'}}>{headsUp}</h5>
                 <label>username</label><br/>
                 <select
                 value={username}
@@ -58,7 +59,7 @@ excercises,
                onChang={(e)=> setDate(e.target.value)}/>
                <br/>
                <button type="submit" className='pop' onClick={setExcercises(excercises)} >Create Excercise Log</button>
-                    <h5>{headsUp}</h5>
+                  
             </form>
         </div>  
     )
