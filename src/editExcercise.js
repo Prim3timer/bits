@@ -81,8 +81,8 @@ return (
            selected={date}
            onChang={(e)=> setDate(e.target.value)}/>
            <br/>
-           <button onClick={handleEdit} className='pop'>Update Info
-           </button>
+           {isLoading || <button onClick={handleEdit} className='pop'>Update Info
+           </button>}
         </form>
        
     </div> 
