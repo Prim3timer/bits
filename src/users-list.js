@@ -9,13 +9,13 @@ let Users = ({users, handleDelete,
         if (users) setIsLoading(false)
     return (
         <div>
-            <table >
+            <table id='user-table'>
                 <tbody>
 
             <h2 className="user-list">Users</h2>
        {isLoading ? <h2>Loading...</h2> : users.map((user, index)=> {
            return (
-               <tr key={user._id} id="theRow"
+               <tr key={user._id} id="the-row"
               
                >
 

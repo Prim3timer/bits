@@ -228,67 +228,125 @@ article {
   article {
     position: relative;
   }
-  #exercise-table {
-    width:280%;
-    margin-left: 5%;
-    
+  #exercise-table td {
+    font-size: 2rem;
   }
   h2 {
       margin-left: 35rem;
       width: 6rem;
   }
   .search-form {
-    margin-left: 30rem;
+    margin-left: 25rem;
     background-color: aquamarine;
     align-items: center;
   }
   #search {
     
-    width: 6rem;
-    /* margin-left: 25rem; */
-    background-color: blue;
+    width: 20rem;
+    margin: auto;
+    padding: 1rem;
+    font-size: 2rem;
   }
- .description {
-  width: 3rem;
- }
+ 
 ul {
-  min-width: 290%;
+
+  min-width: 120rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);;
-  background-color: red;
 }
 li {
   font-size: 2rem;
-  margin-left: .1rem;
+  margin-left: -10rem;
 }
-#excercise-table {
-  margin-left: 5rem;
-  width: 80%;
+#exercise-table {
+  width: 95rem;
+  margin-left: 1rem;
 }
 #edit-exercise {
-  margin-left: 25rem;
   background-color: aqua;
+  width: 100rem;
+}
+#edit-exercise form {
+  margin-left: 55%;
+  margin-bottom: 10%;
+}
+.load-user {
+  margin-top: 5%;
+  margin-left: 55%;
+  width: 8rem;
+}
+.is-done {
+  width: 6rem;
 }
 .create-user{
   background-color: aqua;
-  margin-left: 25rem;
+  /* margin-left: 25rem; */
   justify-content: center;
-  width: 30rem;
+  width: 120rem;
+}
+.create-user form input {
+  font-size: 2rem;
+}
+.pop {
+  width: 20rem;
+  height: 4rem;
+  font-size: 2rem
 }
 
 .create-exercise {
-  margin-left: 25rem;
+  /* margin-left: 20rem; */
   background-color: aqua;
+  width: 100rem;
   
 }
-.username { 
-  /* width: 10rem; */
-  margin-left: 90%;
-}
-/* .search-form {
+.create-exercise h2 {
+  margin-left: 45%;
+  margin-top: 5%;
+ 
   width: 20rem;
-} */
+}
+.create-exercise form {
 
+  margin-left: 45%;
+  margin-bottom: 10%;
+}
+.create-exercise form input {
+  font-size: 2rem;
+}
+.create-exercise form select {
+  font-size: 2rem;
+}
+#edit-exercise form input {
+  font-size: 2rem;
+}
+
+.create-user form input{
+  width: 20rem;
+}
+
+.description {
+  width: 30%;
+ }
+ #user-table {
+  margin-left: 10rem;
+
+ }
+.username{ 
+  /* width: 20rem; */
+  /* background-color: black; */
+}
+.date {
+  width: 15rem;
+}
+.duration {
+  width: 5%;
+}
+.remove  {
+  width: 15%;
+}
+.edit {
+
+  width: 100%;
 }
 #stage {
   background: var(--clr-white);
@@ -302,5 +360,5 @@ li {
   object-fit: cover;
 }
 
-
+}
 
