@@ -288,6 +288,9 @@ ul {
 li {
   font-size: larger;
 }
+#excercise-table {
+  margin: auto;
+}
 }
 #stage {
   background: var(--clr-white);
