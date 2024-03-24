@@ -250,7 +250,7 @@ article {
  
 ul {
   /* padding-bottom: 2rem; */
-  width: 100rem;
+  width: 95rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   height: 15rem;
