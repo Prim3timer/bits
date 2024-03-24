@@ -29,7 +29,7 @@ code {
 
 .flexer li {
   text-decoration: none;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   padding: .2rem;
   color: white;
   text-align: center;
@@ -184,9 +184,7 @@ article {
 .username {
   min-width: 12rem
 }
-.edit {
-  /* max-width: fit-content; */
-}
+
 .date {
   min-width: 7rem;
 }
@@ -265,15 +263,7 @@ article {
   gap: 2rem;
   margin: 3rem auto;
 }
-.users li {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background: var(--clr-white);
-  padding: 1rem 2rem;
-  border-radius: var(--radius);
-  text-align: left;
-}
+
 
 
 @media screen and (min-width: 576px) {
@@ -285,13 +275,15 @@ article {
 @media screen and (max-width: 360px) {
 ul {
   min-width: 290%;
-  gap: -1rem
+
+  /* gap: -1rem */
 }
 li {
-  font-size: 12rem;
+  font-size: 2rem;
+  /* background-color: brown; */
 }
 #excercise-table {
-  margin-left: 15%;
+  margin-left: 10%;
   width: 65rem;
 }
 .search-form {
