@@ -44,10 +44,10 @@ const handleEdit = async (e) => {
 
       }
    
+      setIsDone(true)
       const response = await  axios.put(`https://dosal.onrender.com/excercises/update/${id}`, excercise)
       console.log(response.data)
-      setIsDone(true)
-      setTimeout(()=> {setIsDone(false)}, 3000)
+      if (response) setTimeout(()=> {setIsDone(false)}, 3000)
 }
 return (
     <div id='edit-exercise'>

@@ -80,9 +80,7 @@ label {
 }
 ul {
   display: flex;
-  width: 100%;
-   /* width: 30vw; */
-  /* min-width: 500px; */
+  min-width: 500px;
   list-style-type: none;
   justify-self: center;
   background-color: teal;
@@ -101,6 +99,7 @@ ul li:hover{
   margin-top: 10rem;
   text-decoration: none;
 }
+
 .delete {
   color:dodgerblue;
   background-color: burlywood;
