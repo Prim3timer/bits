@@ -207,7 +207,7 @@ article {
 
 /* beginin of copy */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 740px) {
   #stage {
     width: 95vw;
   }
@@ -251,7 +251,7 @@ ul {
   min-width: 290%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);;
-  background-color: blue;
+  background-color: brown;
 }
 li {
   font-size: 1.5rem;
