@@ -289,7 +289,7 @@ li {
 }
 #excercise-table {
   margin-left: 50%;
-  width: 120%;
+  min-width: 150%;
 }
 }
 #stage {
