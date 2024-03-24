@@ -1,7 +1,7 @@
 let SearchItem = ({search, setSearch})=> {
     return (
-        <form className="searchForm" onSubmit={(e)=> e.preventDefault()}>
-            <input
+        <form  onSubmit={(e)=> e.preventDefault()}>
+            <input className="search-form"
             style={{padding: '0 .5rem', marginTop: '2rem'}}
             id="search"
             type="text"
