@@ -226,8 +226,8 @@ article {
 
 @media screen and (max-width: 576px) {
   #exercise-table {
-    width: 10rem;
-    margin-left: 15rem;
+    width: 15rem;
+    margin-left: 10rem;
     
   }
   h2 {
@@ -251,7 +251,7 @@ ul {
   min-width: 290%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);;
-  background-color: brown;
+  background-color: yellow;
 }
 li {
   font-size: 1.5rem;
