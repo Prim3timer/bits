@@ -257,7 +257,7 @@ ul {
 }
 li {
   font-size: 4rem;
-  margin-right: -1rem;
+  /* margin-right: -1rem; */
 }
 #first {
   margin-left: 1rem;
