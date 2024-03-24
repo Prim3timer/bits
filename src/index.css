@@ -250,9 +250,10 @@ article {
  
 ul {
 
-  min-width: 120rem;
+  min-width: 140rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);;
+  grid-template-columns: repeat(4, 1fr);
+ 
 }
 li {
   font-size: 2rem;
@@ -282,7 +283,8 @@ li {
   /* margin-left: 25rem; */
   justify-content: center;
   width: 140rem;
-  height: 80rem;
+  /* height: 80rem; */
+  /* margin-bottom: 50rem; */
 }
 .create-user form input {
   font-size: 10rem; 
@@ -295,9 +297,11 @@ label {
   font-size: 5rem;
 }
 .pop {
-  width: 50rem;
-  height: 8rem;
-  font-size: 5rem
+  margin-top: 4rem;
+  width: 70rem;
+  height: 10rem;
+  font-size: 7rem;
+  /* padding: 2rem; */
 }
 
 .create-exercise {
