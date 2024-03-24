@@ -23,8 +23,6 @@ code {
 .flexer li {
   text-decoration: none;
   font-size: 1.5rem;
-  /* width: 100%; */
-  margin-left: 5%;
   padding: .2rem;
   color: white;
   text-align: center;
@@ -284,12 +282,13 @@ article {
 @media screen and (max-width: 360px) {
 ul {
   min-width: 290%;
+  gap: .5rem
 }
 li {
   font-size: larger;
 }
 #excercise-table {
-  margin: auto;
+  margin-left: 50%;
 }
 }
 #stage {
