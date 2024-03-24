@@ -123,7 +123,7 @@ table {
   align-items: center;
 }
 #excercise-table {
-  min-width: 12rem;
+  min-width: 11rem;
 }
 tr td{
   border: 1px solid brown;
@@ -258,7 +258,7 @@ li {
   margin-left: .1rem;
 }
 #excercise-table {
-  margin: auto;
+  margin-left: 5rem;
   width: 80%;
 }
 #edit-exercise {
