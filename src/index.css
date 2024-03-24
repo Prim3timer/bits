@@ -123,7 +123,7 @@ table {
   align-items: center;
 }
 #excercise-table {
-  min-width: 11rem;
+  width: 11rem;
 }
 tr td{
   border: 1px solid brown;
@@ -207,7 +207,7 @@ article {
 
 /* beginin of copy */
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 700px) {
   #stage {
     width: 95vw;
   }
@@ -234,10 +234,11 @@ article {
     
   }
   h2 {
-      margin-left: 50rem;
+      margin-left: 35rem;
+      width: 6rem;
   }
   .search-form {
-    margin-left: 45rem;
+    margin-left: 30rem;
     background-color: aquamarine;
     align-items: center;
   }
@@ -254,10 +255,10 @@ ul {
   min-width: 290%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);;
-  background-color: aqua;
+  background-color: red;
 }
 li {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: .1rem;
 }
 #excercise-table {
