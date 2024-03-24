@@ -282,14 +282,14 @@ article {
 @media screen and (max-width: 360px) {
 ul {
   min-width: 290%;
-  gap: .5rem
+  gap: .2rem
 }
 li {
   font-size: xx-large;
 }
 #excercise-table {
   margin-left: 50%;
-  min-width: 150%;
+  min-width: 8rem%;
 }
 }
 #stage {
