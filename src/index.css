@@ -282,7 +282,7 @@ article {
 @media screen and (max-width: 360px) {
 ul {
   min-width: 290%;
-  gap: .2rem
+  gap: -1rem
 }
 li {
   font-size: 8rem;
