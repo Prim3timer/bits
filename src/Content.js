@@ -30,8 +30,8 @@ const goToEdit = (id )=> {
 
          <SearchItem search={search} setSearch={setSearch}/>
         </article>
-          <h2  style={{padding: '1rem 0'}}>Logged Excercises</h2>
-        <table id='excercise-table' >
+          <h2>Logged Excercises</h2>
+        <table id='exercise-table' >
         <tbody>
             
             <tr>

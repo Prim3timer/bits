@@ -54,10 +54,7 @@ input {
  padding: .5rem;
  color: green;
 }
-.username {
-  width: 10rem;
-  /* margin-left: 20rem; */
-}
+
 form, h3, h2  {
   margin-left: 40%;
 }
@@ -181,9 +178,7 @@ article {
   margin: auto;
 }
 
-.username {
-  min-width: 12rem
-}
+
 
 .date {
   min-width: 7rem;
@@ -228,67 +223,67 @@ article {
   color: var(--clr-primary-5);
 }
 
-.modal p {
-  margin-bottom: 0;
-  color: var(--clr-red-dark);
-}
-.form {
-  background: var(--clr-white);
-  max-width: var(--fixed-width);
-  margin: 0 auto;
-  margin-bottom: 4rem;
-  padding: 1rem 2rem;
-  border-radius: var(--radius);
-}
-.form input {
-  background: var(--clr-grey-10);
-  border-color: transparent;
-  border-radius: var(--radius);
-  padding: 0.25rem 0.5rem;
-}
 
-.nav-links {
-  max-width: var(--fixed-width);
-  margin: 0 auto;
-  margin-bottom: 4rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.nav-links a {
-  color: var(--clr-grey-5);
-}
-.users {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 3rem auto;
-}
-
-
-
-@media screen and (min-width: 576px) {
-  #stage {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- 
-}
-}
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 576px) {
+  #exercise-table {
+    width: 10rem;
+    margin-left: 35rem;
+    
+  }
+  h2 {
+      margin-left: 50rem;
+  }
+  .search-form {
+    margin-left: 45rem;
+    background-color: aquamarine;
+    align-items: center;
+  }
+  #search {
+    
+    width: 6rem;
+    /* margin-left: 25rem; */
+    background-color: blue;
+  }
+ .description {
+  width: 3rem;
+ }
 ul {
   min-width: 290%;
-
-  /* gap: -1rem */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);;
+  background-color: red;
 }
 li {
-  font-size: 2rem;
-  /* background-color: brown; */
+  font-size: 1.5rem;
+  margin-left: .1rem;
 }
 #excercise-table {
-  margin-left: 10%;
+  margin-left: 8%;
   width: 65rem;
 }
-.search-form {
-  width: 20rem;
+#edit-exercise {
+  margin-left: 25rem;
+  background-color: aqua;
 }
+.create-user{
+  background-color: aqua;
+  margin-left: 25rem;
+  justify-content: center;
+  width: 30rem;
+}
+
+.create-exercise {
+  margin-left: 25rem;
+  background-color: aqua;
+  
+}
+.username { 
+  /* width: 10rem; */
+  margin-left: 90%;
+}
+/* .search-form {
+  width: 20rem;
+} */
 
 }
 #stage {
@@ -298,7 +293,6 @@ li {
 #stage {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
-
   width: 100%;
   height: 15rem;
   object-fit: cover;

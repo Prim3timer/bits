@@ -15,7 +15,7 @@ let Users = ({users, handleDelete,
             <h2 className="user-list">Users</h2>
        {isLoading ? <h2>Loading...</h2> : users.map((user, index)=> {
            return (
-               <tr id={user._id}
+               <tr key={user._id} id="theRow"
               
                >
 
