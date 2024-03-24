@@ -281,19 +281,23 @@ li {
   background-color: aqua;
   /* margin-left: 25rem; */
   justify-content: center;
-  width: 120rem;
+  width: 140rem;
   height: 80rem;
 }
 .create-user form input {
   font-size: 10rem; 
+  width: 80rem;
 }
-h3 {
-  color: blue;
+.create-user h3 {
+ font-size: 5rem;
+}
+label {
+  font-size: 5rem;
 }
 .pop {
-  width: 24rem;
+  width: 50rem;
   height: 8rem;
-  font-size: 2rem
+  font-size: 5rem
 }
 
 .create-exercise {
@@ -323,10 +327,6 @@ h3 {
   font-size: 2rem;
 }
 
-.create-user form input{
-  width: 40rem;
-}
-
 .description {
   width: 30%;
  }
@@ -334,10 +334,7 @@ h3 {
   margin-left: 10rem;
 
  }
-.username{ 
-  /* width: 20rem; */
-  /* background-color: black; */
-}
+
 .date {
   width: 15rem;
 }
