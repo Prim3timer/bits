@@ -283,8 +283,10 @@ article {
 }
 @media screen and (max-width: 360px) {
 ul {
-  min-width: 300%;
-  background-color: red;
+  min-width: 290%;
+}
+li {
+  font-size: larger;
 }
 }
 #stage {
