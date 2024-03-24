@@ -258,8 +258,8 @@ li {
   margin-left: .1rem;
 }
 #excercise-table {
-  margin-left: 8%;
-  width: 65rem;
+  margin: auto;
+  width: 80%;
 }
 #edit-exercise {
   margin-left: 25rem;
