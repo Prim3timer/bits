@@ -249,7 +249,7 @@ article {
   }
  
 ul {
-
+  /* padding-bottom: 2rem; */
   min-width: 140rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -257,7 +257,12 @@ ul {
 }
 li {
   font-size: 4rem;
+  margin-right: -1rem;
 }
+#first {
+  margin-left: 1rem;
+}
+
 #exercise-table {
   width: 95rem;
   margin-left: 1rem;
