@@ -285,11 +285,11 @@ ul {
   gap: .2rem
 }
 li {
-  font-size: xx-large;
+  font-size: 2rem;
 }
 #excercise-table {
   margin-left: 50%;
-  min-width: 8rem;
+  min-width: 12rem;
 }
 }
 #stage {
