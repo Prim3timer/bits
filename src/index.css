@@ -256,7 +256,6 @@ ul {
 }
 li {
   font-size: 2rem;
-  margin-left: -10rem;
 }
 #exercise-table {
   width: 95rem;
@@ -283,13 +282,17 @@ li {
   /* margin-left: 25rem; */
   justify-content: center;
   width: 120rem;
+  height: 80rem;
 }
 .create-user form input {
-  font-size: 2rem;
+  font-size: 10rem; 
+}
+h3 {
+  color: blue;
 }
 .pop {
-  width: 20rem;
-  height: 4rem;
+  width: 24rem;
+  height: 8rem;
   font-size: 2rem
 }
 
@@ -321,7 +324,7 @@ li {
 }
 
 .create-user form input{
-  width: 20rem;
+  width: 40rem;
 }
 
 .description {
