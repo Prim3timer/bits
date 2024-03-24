@@ -250,14 +250,16 @@ article {
  
 ul {
   /* padding-bottom: 2rem; */
-  min-width: 140rem;
+  width: 100rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  height: 15rem;
  
 }
 li {
   font-size: 4rem;
-  /* margin-right: -1rem; */
+  margin-right: -10rem;
+  width: 5rem;
 }
 #first {
   margin-left: 1rem;
