@@ -22,7 +22,7 @@ excercises,
             <h2>Create Excercise Log</h2>
             <form onSubmit={handleSubmit} >
             <h5 style={{margin: '1rem 0', color: 'red'}}>{headsUp}</h5>
-                <label>username</label><br/>
+                <label>username:</label><br/>
                 <select
                 value={username}
                 onChange={(e)=> setUsername(e.target.value)}
@@ -36,7 +36,7 @@ excercises,
                     })}
                 </select>
                  <br/>
-                 <label>Description</label>
+                 <label>description:</label>
                  <br/>
                 <input
                 name="description"
@@ -44,7 +44,7 @@ excercises,
                 onChange={(e)=> setDescription(e.target.value)}
                 />
                 <br/>
-                <label>Duration:</label>
+                <label>duration:</label>
                 <br/>
                 <input
                 name="duration"
@@ -52,7 +52,7 @@ excercises,
                 onChange={(e)=> setDuration(e.target.value)}
                 />
                 <br/>
-                <label>Date</label>
+                <label>date:</label>
                 <br/>
                <DatePicker
                selected={date}

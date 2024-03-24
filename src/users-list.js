@@ -13,9 +13,11 @@ let Users = ({users, handleDelete,
                 <tbody>
 
             <h2 className="user-list">Users</h2>
-       {isLoading ? <h2>Loading...</h2> : users.map((user)=> {
+       {isLoading ? <h2>Loading...</h2> : users.map((user, index)=> {
            return (
-               <tr id={user._id}>
+               <tr id={user._id}
+              
+               >
 
             <th className="username">{user.username}</th>
             <td className='delete' onClick={()=> handleDelete(user._id)}>delete</td>

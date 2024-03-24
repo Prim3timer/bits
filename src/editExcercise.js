@@ -50,8 +50,8 @@ const handleEdit = async (e) => {
       setTimeout(()=> {setIsDone(false)}, 3000)
 }
 return (
-    <div>
-        {isLoading ? <h2 className='load-user'>Loading user dets...</h2> : <h2>Edit User</h2>}
+    <div id='edit-exercise'>
+        {isLoading ? <h2 className='load-user'>loading data...</h2> : <h2>Edit User</h2>}
         {isDone ? <h2 className='is-done'>User Edited</h2>   : ''}
         <form onSubmit={(e)=> e.preventDefault()} >
             <label>username:</label><br/>

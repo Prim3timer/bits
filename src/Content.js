@@ -16,10 +16,9 @@ setSearch,
 isLoading
 })=> {
  
- 
+ const [rowColor, setRowColor] = useState('yellow')
 
 const goToEdit = (id )=> {
-  // setIsWhat('editExcercise')
   setIsEdit(true)
     changeMarker(id)
     console.log(isWhat)
@@ -31,7 +30,7 @@ const goToEdit = (id )=> {
 
          <SearchItem search={search} setSearch={setSearch}/>
         </article>
-          <h2>Logged Excercises</h2>
+          <h2  style={{padding: '1rem 0'}}>Logged Excercises</h2>
         <table id='excercise-table' >
         <tbody>
             
@@ -42,11 +41,11 @@ const goToEdit = (id )=> {
                 <th>date</th>
                 <th colSpan={2} className='actions'>actions</th>
             </tr>
-          {isLoading ? <h2>Loading...</h2> : excercises.length ? excercises.map((excercise) => {
+          {isLoading ? <h2>Loading...</h2> : excercises.length ? excercises.map((excercise,index) => {
+          
             return (
-
-
-                <tr id={excercise._id} >
+                <tr id={excercise._id} style={{backgroundColor: index % 2 === 0 ?
+                'burlywood' : 'darkseagreen'}}>
                     <td className='username'>{excercise.username}</td>
                 <td className='description'>{excercise.description}</td>
                 <td className='duration'>{excercise.duration}</td>

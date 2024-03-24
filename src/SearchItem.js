@@ -2,6 +2,7 @@ let SearchItem = ({search, setSearch})=> {
     return (
         <form className="searchForm" onSubmit={(e)=> e.preventDefault()}>
             <input
+            style={{padding: '0 .5rem', marginTop: '2rem'}}
             id="search"
             type="text"
             role="searchbox" 
