@@ -51,7 +51,7 @@ input {
 }
  #exercise-list-mainframe h2 {
   font-size: 4rem;
-  margin: 4rem 40rem;
+  margin: 10rem 40rem;
   
 }
 #exercise-list-mainframe {
@@ -137,7 +137,7 @@ ul {
 
 #exercise-table {
   width: 150%;
-  margin-left: 15rem;
+  margin-left: 5rem;
 }
 tr td{
   border: 1px solid brown;
@@ -190,7 +190,7 @@ article {
 } 
 #search {
   font-size: 5rem;
-  margin: 0 -20rem;
+  margin: 0 -10rem;
 }
 
 .username {
