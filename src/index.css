@@ -21,7 +21,7 @@ code {
 }
 
 .search-form {
-  width: 60000rem;
+  width: 20rem;
   padding: 4rem;
   /* background-color: blue; */
  
@@ -29,10 +29,14 @@ code {
 
 .flexer li {
   text-decoration: none;
-  /* font-size: 1.5rem; */
+  font-size: 2rem;
   padding: .2rem;
   color: white;
   text-align: center;
+}
+
+#first {
+  margin-left: -8rem;
 }
 input {
   border-radius: 5px;
@@ -41,12 +45,10 @@ input {
 
 }
 
-#exercise-list .creat-user {
-  width: 90%;
+#exercise-list {
+  width: 95rem;
   justify-content: center;
 }
-
-
 #user {
   margin-left: 25rem;
 }
@@ -64,6 +66,7 @@ table tbody h1 {
 
 .create-exercise {
   justify-content: center;
+  width: 95rem;
   margin-bottom: 2rem;
   background-color: aqua;
   padding: 1rem 0;
@@ -74,16 +77,21 @@ table tbody h1 {
   margin-bottom: 2rem;
   background-color: aqua;
   padding: 1rem 0;
+  width: 95rem;
+  justify-content: center;
 
+}
+#users-list-frame {
+  width: 95rem;
 }
 label {
   font-weight: 700;
 }
 ul {
-  margin: auto;
+  /* margin: auto; */
   display: block;
   position: relative;
-  min-width:100%;
+  width:  95rem;
   max-width: var(--fixed-width);
   list-style-type: none;
   /* justify-self: center; */
@@ -93,6 +101,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 
 /* ul li:hover{
   color: white;
@@ -122,8 +131,9 @@ table {
   margin-bottom: 2rem;
   align-items: center;
 }
-#excercise-table {
-  width: 11rem;
+#exercise-table {
+  width: 95rem;
+  margin-left: 20rem;
 }
 tr td{
   border: 1px solid brown;
@@ -165,7 +175,7 @@ article {
   color: white;
   border-style: none;
   padding: .5rem;
-  width: 10rem;
+  width: 14rem;
   border-radius: 5px;
   margin-top: 1rem;
 }

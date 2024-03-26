@@ -8,7 +8,7 @@ let Users = ({users, handleDelete,
         })
         if (users) setIsLoading(false)
     return (
-        <div>
+        <div id="users-list-frame">
             <table id='user-table'>
                 <tbody>
 
