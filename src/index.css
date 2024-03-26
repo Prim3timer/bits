@@ -29,7 +29,7 @@ code {
 
 .flexer li {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: .2rem;
   color: white;
   text-align: center;
@@ -55,7 +55,7 @@ input {
   
 }
 #exercise-list-mainframe {
-  width: 120rem;
+  width: 90rem;
 }
 #user {
   margin-left: 25rem;
