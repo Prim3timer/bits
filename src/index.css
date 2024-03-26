@@ -46,12 +46,12 @@ input {
 }
 
 #exercise-list {
-  width: 130rem;
+  width: 120rem;
   justify-content: center;
 }
  #exercise-list-mainframe h2 {
   font-size: 4rem;
-  margin: 10rem 40rem;
+  margin: 5rem 40rem;
   
 }
 #exercise-list-mainframe {
@@ -191,6 +191,8 @@ article {
 #search {
   font-size: 5rem;
   margin: 0 -10rem;
+  border: 5px solid black;
+
 }
 
 .username {
