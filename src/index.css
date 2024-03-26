@@ -49,6 +49,9 @@ input {
   width: 130rem;
   justify-content: center;
 }
+#exercise-list-mainframe {
+  width: 120rem;
+}
 #user {
   margin-left: 25rem;
 }

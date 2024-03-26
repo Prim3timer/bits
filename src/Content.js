@@ -25,7 +25,7 @@ const goToEdit = (id )=> {
 }   
     return (
       
-        <>
+        <div id='exercise-list-mainframe'>
         <article>
 
          <SearchItem search={search} setSearch={setSearch}/>
@@ -60,7 +60,7 @@ const goToEdit = (id )=> {
         }) :  <p style={{marinTop: '2rem'}}>Your table is Empty</p>}
              </tbody>
 </table>
-          </>
+          </div>
     )
   }
 
