@@ -55,7 +55,7 @@ input {
   
 }
 #exercise-list-mainframe {
-  width: 90rem;
+  width: 95rem;
 }
 #user {
   margin-left: 25rem;
@@ -99,7 +99,7 @@ ul {
   /* margin: auto; */
   display: block;
   position: relative;
-  width:  130rem;
+  width:  95rem;
   max-width: var(--fixed-width);
   list-style-type: none;
   /* justify-self: center; */
@@ -136,8 +136,8 @@ ul {
 }
 
 #exercise-table {
-  width: 150%;
-  margin-left: 5rem;
+  width: 100%;
+  margin-left: 1rem;
 }
 tr td{
   border: 1px solid brown;
