@@ -150,7 +150,7 @@ table tbody h1 {
 }
 #user-table {
   position: absolute;
-  width: 50rem;
+  width: 30rem;
   margin:  10rem 0 4rem 35rem 
 }
 .user-list{
@@ -277,15 +277,7 @@ tr th {
  
   margin-top: 10rem;
 }
-/* .is-done {
-  position: absolute;
-  margin-left: 45rem;
-  margin-top: 14rem;
-  margin-bottom: 4rem;
-  padding: .5rem;
-  font-size: 4rem;
-  color: red;
- } */
+
 label { 
   font-size: 3rem;
 }
