@@ -46,7 +46,7 @@ input {
 }
 
 #exercise-list {
-  width: 120rem;
+  width: 116rem;
   justify-content: center;
 }
  #exercise-list-mainframe h2 {
@@ -56,7 +56,7 @@ input {
 }
 #exercise-list-mainframe {
   position: relative;
-  width: 120rem;
+  width: 116rem;
 }
 #user {
   margin-left: 25rem;
@@ -75,7 +75,7 @@ table tbody h1 {
 
 .create-exercise {
   justify-content: center;
-  width: 130rem;
+  width: 116rem;
   margin-bottom: 2rem;
   background-color: aqua;
   padding: 1rem 0;
@@ -86,12 +86,12 @@ table tbody h1 {
   margin-bottom: 2rem;
   background-color: aqua;
   padding: 1rem 0;
-  width: 130rem;
-  justify-content: center;
+  width: 116rem;
+  /* justify-content: center; */
 
 }
 #users-list-frame {
-  width: 130rem;
+  width: 116rem;
 }
 label {
   font-weight: 700;
@@ -100,7 +100,7 @@ ul {
   /* margin: auto; */
   display: block;
   /* position: relative; */
-  width:  120rem;
+  width:  116rem;
   max-width: var(--fixed-width);
   list-style-type: none;
   /* justify-self: center; */
