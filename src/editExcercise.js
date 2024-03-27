@@ -51,8 +51,8 @@ const handleEdit = async (e) => {
 }
 return (
     <div id='edit-exercise'>
-        {isLoading ? <h2 className='load-user'>loading data...</h2> : <h2 className='load-user'>Edit User</h2>}
-        {isDone ? <h2 className='is-done'>User Edited</h2>   : ''}
+        {isLoading ? <h2 className='load-user' style={{color: 'green'}}>loading data...</h2> : isDone ? <h2 className='load-user' style={{color: 'green'}} >User Edited  </h2> : <h2 className='load-user'>Edit User</h2>}
+    
         <form onSubmit={(e)=> e.preventDefault()} >
             <label>username:</label><br/>
             <input

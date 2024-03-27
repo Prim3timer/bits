@@ -28,7 +28,7 @@ excercises,
                 onChange={(e)=> setUsername(e.target.value)}
                 >
                     {users.map((user)=> {
-                        return <option key={user._id}
+                        return <option key={user._id}                                                                  
                         className='aha'
                         value={user.username}
                         >
@@ -59,7 +59,7 @@ excercises,
                selected={date}
                onChang={(e)=> setDate(e.target.value)}/>
                <br/>
-               <button type="submit" className='pop' onClick={setExcercises(excercises)} >Create Excercise Log</button>
+               <button type="submit" className='pop' onClick={setExcercises(excercises)} >Add Log</button>
                   
             </form>
         </div>  
