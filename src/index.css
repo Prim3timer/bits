@@ -56,7 +56,7 @@ input {
 }
 #exercise-list-mainframe {
   position: relative;
-  width: 115rem;
+  width: 125rem;
 }
 #user {
   margin-left: 25rem;
@@ -100,12 +100,12 @@ ul {
   /* margin: auto; */
   display: block;
   /* position: relative; */
-  width:  115rem;
+  width:  125rem;
   max-width: var(--fixed-width);
   list-style-type: none;
   /* justify-self: center; */
-  /* background-color: teal; */
-  background-color: red;
+  background-color: teal;
+  /* background-color: red; */
   padding: .5rem 0;
   /* justify-content: center; */
   display: grid;
