@@ -55,7 +55,8 @@ input {
   
 }
 #exercise-list-mainframe {
-  width: 95rem;
+  position: relative;
+  width: 115rem;
 }
 #user {
   margin-left: 25rem;
@@ -98,12 +99,13 @@ label {
 ul {
   /* margin: auto; */
   display: block;
-  position: relative;
-  width:  95rem;
+  /* position: relative; */
+  width:  115rem;
   max-width: var(--fixed-width);
   list-style-type: none;
   /* justify-self: center; */
-  background-color: teal;
+  /* background-color: teal; */
+  background-color: red;
   padding: .5rem 0;
   /* justify-content: center; */
   display: grid;
@@ -134,10 +136,10 @@ ul {
 .load-user {
   color: green;
 }
-
+ 
 #exercise-table {
-  width: 100%;
-  margin-left: 1rem;
+  width: 95%;
+  margin-left: 2rem;
 }
 tr td{
   border: 1px solid brown;
