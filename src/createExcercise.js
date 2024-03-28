@@ -18,10 +18,12 @@ excercises,
  headsUp
 }) => {
     return (
+      
+
         <div className='create-exercise'>
             <h2>Create Excercise Log</h2>
+            <h5 >{headsUp}</h5>
             <form onSubmit={handleSubmit} >
-            <h5 style={{margin: '1rem 0', color: 'red'}}>{headsUp}</h5>
                 <label>username:</label><br/>
                 <select
                 value={username}
@@ -63,6 +65,7 @@ excercises,
                   
             </form>
         </div>  
+        
     )
 }
 

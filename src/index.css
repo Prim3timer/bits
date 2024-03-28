@@ -48,6 +48,13 @@ form input {
   color: white;
   text-align: center;
 }
+li:active {
+  text-decoration: underline;
+}
+li:hover {
+  text-decoration: underline;
+
+}
 
 #first {
   margin-left: -8rem;
@@ -86,6 +93,9 @@ form, h3  {
 table tbody h1 {
   margin: 50% 230%;
 }
+#woman-wrapper {
+  /* margin-top: 4rem; */
+}
 
 .create-exercise {
   justify-content: center;
@@ -93,20 +103,28 @@ table tbody h1 {
   width: 116rem;
   background-color: aqua;
   padding: 1rem 0;
-  margin-top: 4rem;
+  margin: 4rem 0;
 }
 .create-exercise form {
   padding-bottom: 4rem;
+  margin-left: 50rem;
+  margin-bottom: 10rem;
 }
 
 .create-exercise form select {
   font-size: 3rem;
 }
 .create-exercise h2 {
+  position: absolute;
   font-size: 4rem;
-  margin: 2rem 0 2rem 42rem;
+  margin: 20rem 0 0 8rem;
 }
-
+.create-exercise h5 {
+  font-size: 3rem;
+  position: absolute;
+  margin: 10rem 0 2rem 8rem;
+  color: red;
+}
 
 
 .create-user {
@@ -118,10 +136,13 @@ table tbody h1 {
   height: 40rem;
   
 }
-.create-user h3 {
+.create-user h2 {
   font-size: 5rem;
   position: absolute;
   margin-top:8rem; 
+  width: 40rem;
+  margin-left: 40rem;
+
   
 }
 .create-user form {
@@ -148,18 +169,20 @@ table tbody h1 {
 #users-list-frame {
   position: absolute;
   width: 116rem;
+  margin-bottom: 4rem;
 }
 #user-table {
-  position: absolute;
+  position: relative;
   width: 40rem;
-  margin:  10rem 0 4rem 35rem 
+  margin:  2rem 0 10rem 35rem 
 }
 .user-name {
   width: 90%;
 }
 .user-list{
   font-size: 5rem;
-  margin-left: 16rem;
+  margin-top: 8rem;
+  margin-left: 45rem;
 }
 label {
   font-weight: 700;
@@ -266,7 +289,7 @@ tr th {
   /* position: absolute; */
   background-color: aqua;
   padding: 2rem 0 10rem 0;
-  margin-bottom: 10rem;
+  margin-bottom: 4rem;
   /* height: 50rem; */
 }
 #edit-exercise form {
@@ -277,9 +300,7 @@ tr th {
 .load-user {
   position: absolute;
   font-size: 4rem;
-  margin-left: 45rem;
- 
-  margin-top: 10rem;
+  margin: 35rem 0 0 10rem;
 }
 
 label { 

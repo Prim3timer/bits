@@ -78,7 +78,6 @@ function App() {
               const changer = (stats)=> {
                 setIsWhat(stats)
                 setIsEdit(false)
-                console.log(isWhat)
                }   
               
               const handleSubmit = async (e)=> {
