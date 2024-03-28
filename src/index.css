@@ -100,13 +100,12 @@ table tbody h1 {
   position: absolute;
   width: 116rem;
   background-color: aqua;
-  padding: 1rem 0;
-  margin: 4rem 0;
+  padding-top: 6rem;
 }
 .create-exercise form {
   padding-bottom: 4rem;
   margin-left: 50rem;
-  margin-bottom: 10rem;
+  margin-bottom: 1rem;
 }
 
 .create-exercise form select {
@@ -287,8 +286,8 @@ tr th {
 #edit-exercise {
   /* position: absolute; */
   background-color: aqua;
-  padding: 2rem 0 10rem 0;
-  margin-bottom: 4rem;
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 1rem;
   /* height: 50rem; */
 }
 #edit-exercise form {
