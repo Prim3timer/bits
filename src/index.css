@@ -93,9 +93,7 @@ form, h3  {
 table tbody h1 {
   margin: 50% 230%;
 }
-#woman-wrapper {
-  /* margin-top: 4rem; */
-}
+
 
 .create-exercise {
   justify-content: center;
@@ -148,6 +146,7 @@ table tbody h1 {
 .create-user form {
   position: absolute;
   margin-top:15rem;
+  margin-left: 40rem;
 }
 
 .create-user form input {
