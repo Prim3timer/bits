@@ -355,11 +355,11 @@ label {
   }
  
 ul {
-  /* padding-bottom: 2rem; */
-  width: 95rem;
+  padding-bottom: 2rem;
+  width: 70rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 15rem;
+
  
 }
 li {
@@ -394,26 +394,28 @@ li {
 .create-user{
   background-color: #00ffff;
   /* justify-content: center; */
-  width: 140rem;
-  /* height: 80rem; */
-  /* margin-bottom: 50rem; */
+  width: 116rem;
+  height: 50rem;
+  margin-bottom: 50rem;
 }
 .create-user form input {
-  font-size: 10rem; 
-  width: 80rem;
+  font-size: 5rem; 
+  width: 60rem;
 }
-.create-user h3 {
+.create-user h2 {
  font-size: 5rem;
+ margin-top: 25rem;
+ margin-left: 2rem;
 }
 label {
   font-size: 5rem;
 }
 .create-user form {
-  margin-left: 25rem
+  margin-left: 35rem
 }
 .pop {
   margin-top: 4rem;
-  width: 70rem;
+  width: 40rem;
   height: 10rem;
   font-size: 4rem;
   /* padding: 2rem; */
