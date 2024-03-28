@@ -146,13 +146,16 @@ table tbody h1 {
 }
 
 #users-list-frame {
-  position: ;
+  position: absolute;
   width: 116rem;
 }
 #user-table {
   position: absolute;
-  width: 30rem;
+  width: 40rem;
   margin:  10rem 0 4rem 35rem 
+}
+.user-name {
+  width: 90%;
 }
 .user-list{
   font-size: 5rem;
