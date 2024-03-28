@@ -364,15 +364,15 @@ ul {
 }
 li {
   font-size: 4rem;
-  margin-right: -10rem;
+  /* margin-right: -10rem; */
   width: 5rem;
 }
 #first {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 #exercise-table {
-  width: 95rem;
+  width: 91rem;
   margin-left: 1rem;
 }
 #edit-exercise {
@@ -399,8 +399,8 @@ li {
   margin-bottom: 50rem;
 }
 .create-user form input {
-  font-size: 5rem; 
-  width: 60rem;
+  font-size: 3rem; 
+  width: 50rem;
 }
 .create-user h2 {
  font-size: 5rem;
@@ -415,10 +415,9 @@ label {
 }
 .pop {
   margin-top: 4rem;
-  width: 40rem;
-  height: 10rem;
+  width: 30rem;
   font-size: 4rem;
-  /* padding: 2rem; */
+  padding: 2rem;
 }
 
 .create-exercise {
