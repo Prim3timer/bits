@@ -39,6 +39,7 @@ code {
 }
 form input {
   font-size: 3rem;
+  padding: 1rem;
 }
 
 .flexer li {
@@ -59,12 +60,12 @@ li:hover {
 #first {
   margin-left: -8rem;
 }
-input {
+/* input {
   border-radius: 5px;
   padding: .2rem;
-  /* font-weight: bold; */
+  font-weight: bold;
 
-}
+} */
 
 #exercise-list {
   width: 116rem;
@@ -395,23 +396,26 @@ li {
   background-color: #00ffff;
   /* justify-content: center; */
   width: 116rem;
-  height: 50rem;
+  height: 70rem;
   margin-bottom: 50rem;
 }
 .create-user form input {
-  font-size: 3rem; 
-  width: 50rem;
+  font-size: 5rem; 
+  width: 40rem;
 }
 .create-user h2 {
  font-size: 5rem;
- margin-top: 25rem;
- margin-left: 2rem;
+ margin-top: 15rem;
+ margin-left: 30rem;
+ padding-bottom: 5rem;
+ margin-bottom: 5rem;
 }
 label {
   font-size: 5rem;
 }
 .create-user form {
-  margin-left: 35rem
+  margin-left: 25rem;
+  padding-top: 10rem;
 }
 .pop {
   margin-top: 4rem;
