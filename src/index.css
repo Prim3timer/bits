@@ -121,12 +121,12 @@ table tbody h1 {
 
 
 .create-user {
-  /* position: absolute; */
+  position: absolute;
   margin-bottom: 4rem;
   background-color: aqua;
-  padding-bottom: 6rem;
   width: 116rem;
   height: 40rem;
+  /* margin-top: 5rem; */
   
 }
 .create-user h2 {
@@ -134,7 +134,7 @@ table tbody h1 {
   position: absolute;
   margin-top:8rem; 
   width: 40rem;
-  margin-left: 50%;
+  margin-left: 35%;
 
   
 }
@@ -182,7 +182,7 @@ label {
   font-weight: 700;
 }
 ul {
-  /* margin: auto; */
+  margin-bottom: 10rem;
   position: fixed;
   z-index: 10;
   width:  116rem;
@@ -322,11 +322,11 @@ label {
 
 @media screen and (max-width: 576px) {
   #exercise-list-mainframe {
-    width: 98rem;
+    width: 100rem;
   }
   
 #exercise-table {
-  width: 100%;
+  width: 120%;
   margin-left: 2rem;
 }
   article {
