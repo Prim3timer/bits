@@ -332,8 +332,8 @@ label {
   article {
     position: relative;
   }
-  #exercise-table td {
-    font-size: 2rem;
+  #exercise-table tr td {
+    font-size: 3rem;
   }
   h2 {
       margin-left: 35rem;
