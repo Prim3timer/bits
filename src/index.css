@@ -322,18 +322,18 @@ label {
 
 @media screen and (max-width: 576px) {
   #exercise-list-mainframe {
-    width: 100rem;
+    width: 130rem;
   }
   
 #exercise-table {
-  width: 120%;
+  width: 180%;
   margin-left: 2rem;
 }
   article {
     position: relative;
   }
   #exercise-table tr td {
-    font-size: 3rem;
+    font-size: 5rem;
   }
   h2 {
       margin-left: 35rem;
@@ -477,10 +477,6 @@ label {
 }
 .remove  {
   width: 15%;
-}
-.edit {
-
-  /* width: 100%; */
 }
 #stage {
   background: var(--clr-white);
