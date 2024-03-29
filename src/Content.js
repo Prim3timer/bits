@@ -45,7 +45,7 @@ const goToEdit = (id )=> {
           
             return (
                 <tr id={excercise._id} style={{backgroundColor: index % 2 === 0 ?
-                'burlywood' : 'darkseagreen'}}>
+                'white' : 'palegreen'}}>
                     <td className='username'>{excercise.username}</td>
                 <td className='description'>{excercise.description}</td>
                 <td className='duration'>{excercise.duration}</td>
