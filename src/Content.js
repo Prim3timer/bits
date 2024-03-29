@@ -51,9 +51,8 @@ const goToEdit = (id )=> {
                 <td className='duration'>{excercise.duration}</td>
                 <td className='date'>{excercise.date.substring(0, 10)}</td>
                 {/* <td>{excercise.date}</td> */}
-                <td  className='remove' style={{color: 'dodgerblue'}} onClick={() => removeExcercise(excercise._id)}>Remove</td>
-                <td className='edit' type='submit' onClick={()=> goToEdit(excercise._id)} 
-                >Edit</td>
+                <td  className='remove' style={{color: 'midnightblue'}} onClick={() => removeExcercise(excercise._id)}>Remove</td>
+                <td className='edit' type='submit' onClick={()=> goToEdit(excercise._id)} >Edit</td>
                 </tr>
         
             )

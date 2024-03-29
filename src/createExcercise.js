@@ -30,8 +30,7 @@ excercises,
                 onChange={(e)=> setUsername(e.target.value)}
                 >
                     {users.map((user)=> {
-                        return <option key={user._id}                                                                  
-                        className='aha'
+                        return <option key={user._id} 
                         value={user.username}
                         >
                             {user.username}

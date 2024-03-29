@@ -60,12 +60,6 @@ li:hover {
 #first {
   margin-left: -8rem;
 }
-/* input {
-  border-radius: 5px;
-  padding: .2rem;
-  font-weight: bold;
-
-} */
 
 #exercise-list {
   width: 116rem;
@@ -104,23 +98,24 @@ table tbody h1 {
   padding-top: 6rem;
 }
 .create-exercise form {
-  padding-bottom: 4rem;
+  margin-top: 4rem;
   margin-left: 50rem;
   margin-bottom: 1rem;
 }
 
 .create-exercise form select {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 .create-exercise h2 {
   position: absolute;
   font-size: 4rem;
-  margin: 20rem 0 0 5%;
+  margin: 25rem 0 0 5%;
 }
 .create-exercise h5 {
-  font-size: 3rem;
+  font-size: 4rem;
   position: absolute;
-  margin: 10rem 0 2rem 8rem;
+  margin: 34rem 0 2rem 6%;
+  width: 35rem;
   color: red;
 }
 
@@ -212,7 +207,7 @@ ul {
   background-color: burlywood;
 }
 .edit {
-  color:dodgerblue;
+  color:midnightblue;
 
 }
  
@@ -221,10 +216,10 @@ ul {
   margin-left: 2rem;
   margin-bottom: 4rem;
 }
-tr td{
+#exercise-table tr td{
   border: 1px solid brown;
-  font-size: large;
-  padding: 5px;
+  font-size: 3rem;
+  /* padding: 10px; */
   text-align: center;
 }
 tr th {
@@ -233,21 +228,14 @@ tr th {
   /* border: 1px solid black; */
   padding: 10px;
   font-size: 3rem;
-  /* width: 10rem; */
+  width: 10rem;
+  text-align: center;
 }
 
 tr:hover {
   background-color:aquamarine;
 }
 
-
-
-tr th {
-  border: 1px solid black;
-  padding: 5px;
-  text-align: center;
-  
-}
 
 
 
@@ -279,7 +267,7 @@ tr th {
 }
 .edit {
   font-size: 3rem;
-  width: 3%;
+  /* width: 3%; */
   padding: 1rem;
 }
 
@@ -294,7 +282,8 @@ tr th {
 #edit-exercise form {
   /* background-color: aqua; */
   /* position: absolute; */
-  margin-top: 16rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 .load-user {
   position: absolute;
@@ -332,6 +321,14 @@ label {
 
 
 @media screen and (max-width: 576px) {
+  #exercise-list-mainframe {
+    width: 98rem;
+  }
+  
+#exercise-table {
+  width: 100%;
+  margin-left: 2rem;
+}
   article {
     position: relative;
   }
@@ -372,10 +369,6 @@ li {
   margin-left: 1.5rem;
 }
 
-#exercise-table {
-  width: 91rem;
-  margin-left: 1rem;
-}
 #edit-exercise {
   background-color: aqua;
   width: 100rem;
@@ -446,7 +439,7 @@ label {
   width: 40rem;
 }
 .create-exercise form select {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 #edit-exercise form input {
   font-size: 2rem;
@@ -477,7 +470,7 @@ label {
  }
 
 .date {
-  width: 15rem;
+  width: 20%;
 }
 .duration {
   width: 5%;
@@ -487,7 +480,7 @@ label {
 }
 .edit {
 
-  width: 100%;
+  /* width: 100%; */
 }
 #stage {
   background: var(--clr-white);
