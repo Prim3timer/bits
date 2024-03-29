@@ -380,10 +380,11 @@ li {
 
 #edit-exercise {
   background-color: aqua;
-  width: 120rem;
+  width: 91rem;
 }
 #edit-exercise form {
   margin-left: 40%;
+  width: 91rem;
   margin-bottom: 10%;
 }
 #edit-exercise form input {
