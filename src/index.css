@@ -323,6 +323,7 @@ label {
 @media screen and (max-width: 576px) {
   #exercise-list-mainframe {
     width: 130rem;
+    margin-top: 25rem;
   }
   #exercise-list-mainframe h2 {
     margin-left: 105rem;
@@ -349,16 +350,16 @@ label {
       width: 6rem;
   }
   .search-form {
-    margin-left: 25rem;
+    margin-top: -5rem;
+    margin-left: 5rem;
     background-color: aquamarine;
     align-items: center;
   }
   #search {
-    
-    width: 20rem;
+    width: 40rem;
+    font-size: 3rem;
     margin: auto;
     padding: 1rem;
-    font-size: 2rem;
   }
  
 ul {
