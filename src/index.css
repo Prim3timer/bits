@@ -38,7 +38,7 @@ code {
 
 }
 form input {
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 1rem;
 }
 
@@ -115,7 +115,7 @@ table tbody h1 {
 .create-exercise h2 {
   position: absolute;
   font-size: 4rem;
-  margin: 20rem 0 0 8rem;
+  margin: 20rem 0 0 5%;
 }
 .create-exercise h5 {
   font-size: 3rem;
@@ -139,7 +139,7 @@ table tbody h1 {
   position: absolute;
   margin-top:8rem; 
   width: 40rem;
-  margin-left: 40rem;
+  margin-left: 50%;
 
   
 }
@@ -431,21 +431,22 @@ label {
   
 }
 .create-exercise h2 {
-  margin-left: 45%;
-  margin-top: 5%;
- 
-  width: 20rem;
+  font-size: 5rem;
+  margin: 10% 0 0 30%;
+  width: 50rem;
 }
 .create-exercise form {
 
-  margin-left: 45%;
+  margin-left: 30%;
   margin-bottom: 10%;
+  margin-top: 20rem;
 }
 .create-exercise form input {
-  font-size: 2rem;
+  font-size: 4rem;
+  width: 40rem;
 }
 .create-exercise form select {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 #edit-exercise form input {
   font-size: 2rem;
