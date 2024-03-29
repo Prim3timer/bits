@@ -451,6 +451,10 @@ label {
 #edit-exercise form input {
   font-size: 2rem;
 }
+.create-exercise h5 {
+  margin-top: 17rem;
+  margin-left: 30%;
+}
 
 #users-list-frame {
   margin-top: 10rem;
