@@ -324,15 +324,22 @@ label {
   #exercise-list-mainframe {
     width: 130rem;
   }
+  #exercise-list-mainframe h2 {
+    margin-left: 105rem;
+  }
   
 #exercise-table {
-  width: 180%;
-  margin-left: 2rem;
+  width: 160%;
+  margin: 0 2rem;
 }
   article {
     position: relative;
   }
   #exercise-table tr td {
+    font-size: 5rem;
+  }
+  #exercise-table tr th {
+    
     font-size: 5rem;
   }
   h2 {
@@ -371,15 +378,18 @@ li {
 
 #edit-exercise {
   background-color: aqua;
-  width: 100rem;
+  width: 120rem;
 }
 #edit-exercise form {
   margin-left: 55%;
   margin-bottom: 10%;
 }
+#edit-exercise form input {
+  font-size: 3rem;
+}
 .load-user {
-  margin-top: 5%;
-  margin-left: 55%;
+  margin-top: 55%;
+  margin-left: 40%;
   width: 8rem;
 }
 .is-done {
@@ -440,9 +450,6 @@ label {
 }
 .create-exercise form select {
   font-size: 5rem;
-}
-#edit-exercise form input {
-  font-size: 2rem;
 }
 .create-exercise h5 {
   font-size: 4rem;
