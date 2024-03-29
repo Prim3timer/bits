@@ -389,11 +389,11 @@ li {
   margin-bottom: 10%;
 }
 #edit-exercise form input {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 .load-user {
   margin-top: 125%;
-  margin-left: 20%;
+  margin-left: 15%;
   width: 30rem;
 }
 .is-done {
