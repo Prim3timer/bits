@@ -307,10 +307,10 @@ label {
   #stage {
     width: 95vw;
   }
-  ul {
-    width: 95rem;
+  /* ul {
+    width: 91rem;
   }
-}
+} */
 
 .stage {
   text-align: center;
@@ -334,7 +334,7 @@ label {
   #exercise-list-mainframe h2 {
     margin-left: 60rem;
     font-size: 5rem;
-   width: 91rem;
+   /* width: 91rem; */
   }
 
 #exercise-table {
