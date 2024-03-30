@@ -335,7 +335,7 @@ label {
   #exercise-list-mainframe h2 {
     /* margin-left: 60rem; */
     font-size: 5rem;
-   /* width: 91rem; */
+   width: 100%;
   }
 
 #exercise-table {
