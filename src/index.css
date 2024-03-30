@@ -351,14 +351,15 @@ label {
   }
   .search-form {
     margin-top: -5rem;
-    margin-left: 5rem;
+    /* margin-right: 25rem; */
     background-color: aquamarine;
     align-items: center;
   }
   #search {
+    /* position: fixed; */
     width: 40rem;
     font-size: 3rem;
-    margin: auto;
+    margin-left: 10rem;
     padding: 1rem;
   }
  
