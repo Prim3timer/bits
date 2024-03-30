@@ -323,6 +323,10 @@ label {
 }
 
 @media screen and (max-width: 576px) {
+  #exercise-list {
+    width: 91rem;
+  }
+
   #exercise-list-mainframe {
     width: 110rem;
     margin-top: 25rem;
