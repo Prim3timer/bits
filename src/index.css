@@ -294,7 +294,6 @@ tr:hover {
   position: absolute;
   font-size: 6rem;
   margin: 25rem 0 0 6rem;
-  width: 1000rem;
 }
 
 label { 
@@ -418,7 +417,7 @@ li {
 .load-user {
   margin-top: 15rem;
   margin-left: 40rem;
-  width: 30rem;
+  width: 60rem;
 }
 .is-done {
   width: 6rem;
