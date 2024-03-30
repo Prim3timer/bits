@@ -393,12 +393,12 @@ li {
 }
 #edit-exercise form {
   margin-top: 25rem;
-  margin-left: 5%;
+  margin-left: 10%;
   width: 85rem;
   margin-bottom: 10%;
 }
 #edit-exercise form input {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .load-user {
   margin-top: 15rem;
@@ -416,7 +416,7 @@ li {
   margin-bottom: 50rem;
 }
 .create-user form input {
-  font-size: 3rem; 
+  font-size: 4rem; 
   width: 48rem;
 }
 .create-user h2 {
