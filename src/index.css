@@ -328,7 +328,7 @@ label {
   } */
 
   #exercise-list-mainframe {
-    width: 110rem;
+    /* width: 110rem; */
     margin-top: 25rem;
   }
   #exercise-list-mainframe h2 {
