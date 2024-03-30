@@ -384,8 +384,8 @@ li {
 }
 
 #edit-exercise {
-  background-color: aqua;
-  width: 91rem;
+  /* background-color: aqua; */
+  width: 75rem;
 }
 #edit-exercise form {
   margin-top: 20rem;
