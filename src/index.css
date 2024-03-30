@@ -307,6 +307,9 @@ label {
   #stage {
     width: 95vw;
   }
+  ul {
+    width: 95rem;
+  }
 }
 
 .stage {
@@ -319,13 +322,13 @@ label {
   color: var(--clr-primary-5);
 }
 
-
 @media screen and (max-width: 576px) {
   #exercise-list-mainframe {
     width: 110rem;
     margin-top: 25rem;
   }
   #exercise-list-mainframe h2 {
+    width: 91rem;
     margin-left: 55rem;
     font-size: 5rem;
     width: 50rem;
