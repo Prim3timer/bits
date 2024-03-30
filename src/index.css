@@ -323,19 +323,18 @@ label {
 }
 
 @media screen and (max-width: 576px) {
-  #exercise-list {
+  /* #exercise-list {
     width: 91rem;
-  }
+  } */
 
   #exercise-list-mainframe {
-    width: 110rem;
+    /* width: 110rem; */
     margin-top: 25rem;
   }
   #exercise-list-mainframe h2 {
     margin-left: 60rem;
     font-size: 5rem;
    width: 91rem;
-   overflow-y: hidden;
   }
 
 #exercise-table {
