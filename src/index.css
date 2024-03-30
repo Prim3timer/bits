@@ -328,7 +328,7 @@ label {
   } */
 
   #exercise-list-mainframe {
-    /* width: 110rem; */
+    width: 110rem;
     margin-top: 25rem;
   }
   #exercise-list-mainframe h2 {
@@ -357,7 +357,7 @@ label {
   }
   .search-form {
     margin-top: -5rem;
-    /* margin-right: 25rem; */
+    margin-right: 25rem;
     background-color: aquamarine;
     align-items: center;
   }
