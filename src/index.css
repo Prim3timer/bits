@@ -284,6 +284,9 @@ tr:hover {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
+#edit-exercise form input {
+  font-size: 3rem;
+}
 .load-user {
   position: absolute;
   font-size: 6rem;
