@@ -25,7 +25,7 @@ code {
   position: fixed;
   /* margin-top: 2rem; */
   
-  /* padding: 2rem; */
+  padding-top: 4rem;
   /* background-color: blue; */
  
 }
@@ -67,9 +67,8 @@ li:hover {
 }
  #exercise-list-mainframe h2 {
   /* position: absolute; */
-  /* margin-top: 5rem; */
-  font-size: 4rem;
-  margin: 8rem 0 2rem 40rem;
+  font-size: 6rem;
+  margin: 15rem 0 2rem 60rem;
   
 }
 #exercise-list-mainframe {
