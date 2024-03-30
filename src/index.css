@@ -393,7 +393,7 @@ li {
 #edit-exercise form {
   margin-top: 25rem;
   margin-left: 20%;
-  width: 901rem;
+  /* width: 901rem; */
   /* margin-bottom: 10%; */
   margin-bottom: 30%;
 }
