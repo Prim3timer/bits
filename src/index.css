@@ -105,6 +105,9 @@ table tbody h1 {
 .create-exercise form select {
   font-size: 5rem;
 }
+.create-exercise form input {
+  font-size: 3rem;
+}
 .create-exercise h2 {
   position: absolute;
   font-size: 4rem;
