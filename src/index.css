@@ -393,12 +393,20 @@ li {
 }
 #edit-exercise form {
   margin-top: 25rem;
-  margin-left: 10%;
+  margin-left: 20%;
   width: 85rem;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
+  margin-bottom: 30%;
 }
 #edit-exercise form input {
   font-size: 4rem;
+}
+.pop {
+  /* margin-top: 4rem; */
+  margin: auto;
+  width: 30rem;
+  font-size: 4rem;
+  padding: 2rem;
 }
 .load-user {
   margin-top: 15rem;
@@ -433,12 +441,7 @@ label {
   margin-left: 25rem;
   padding-top: 10rem;
 }
-.pop {
-  margin-top: 4rem;
-  width: 30rem;
-  font-size: 4rem;
-  padding: 2rem;
-}
+
 
 .create-exercise {
   /* margin-left: 20rem; */
