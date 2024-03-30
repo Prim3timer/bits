@@ -389,8 +389,8 @@ li {
 }
 #edit-exercise form {
   margin-top: 25rem;
-  margin-left: 45%;
-  width: 91rem;
+  /* margin-left: 45%; */
+  width: 60rem;
   margin-bottom: 10%;
 }
 #edit-exercise form input {
