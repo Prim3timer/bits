@@ -322,7 +322,7 @@ label {
 
 @media screen and (max-width: 576px) {
   #exercise-list-mainframe {
-    width: 130rem;
+    width: 110rem;
     margin-top: 25rem;
   }
   #exercise-list-mainframe h2 {
@@ -332,14 +332,14 @@ label {
   }
   
 #exercise-table {
-  width: 160%;
+  width: 136%;
   margin: 0 2rem;
 }
   article {
     position: relative;
   }
   #exercise-table tr td {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   #exercise-table tr th {
     
