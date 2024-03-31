@@ -58,6 +58,7 @@ excercises,
                 <br/>
                <DatePicker
                selected={date}
+               id='date'
                onChang={(e)=> setDate(e.target.value)}/>
                <br/>
                <button type="submit" className='pop' onClick={setExcercises(excercises)} >Add Log</button>
