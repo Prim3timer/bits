@@ -172,10 +172,11 @@ table tbody h1 {
 #user-table tbody tr td {
   border: 5px solid brown;
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 #user-table tbody tr th {
   border: 5px solid brown;
+  font-size: 5rem;
 
 }
 
