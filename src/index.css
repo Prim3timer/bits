@@ -127,8 +127,6 @@ table tbody h1 {
   background-color: aqua;
   width: 116rem;
   height: 40rem;
-  /* margin-top: 5rem; */
-  
 }
 .create-user h2 {
   font-size: 5rem;
@@ -155,7 +153,7 @@ table tbody h1 {
   color: white;
   border-style: none;
   padding: 1rem;
-  width: 35rem;
+  width: 25rem;
   font-size: 3rem;
   border-radius: 5px;
   margin-top: 2rem;
@@ -168,9 +166,13 @@ table tbody h1 {
 }
 #user-table {
   position: relative;
-  width: 40rem;
-  margin:  2rem 0 10rem 35rem 
+  width: 80rem;
+  margin:  2rem 0 10rem 20rem 
 }
+#user-table tbody tr td {
+  border: 1px solid brown;
+}
+
 .user-name {
   width: 90%;
 }
@@ -204,8 +206,9 @@ ul {
 }
 
 .delete {
-  color:dodgerblue;
-  background-color: burlywood;
+  color:navy;
+  /* background-color: burlywood; */
+  padding: 1rem;
 }
 .edit {
   color:midnightblue;
@@ -217,6 +220,9 @@ ul {
   margin-left: 2rem;
   margin-bottom: 4rem;
 }
+#exercise-table tr th {
+  background-color: skyblue;
+}
 #exercise-table tr td{
   border: 1px solid brown;
   font-size: 3rem;
@@ -225,7 +231,6 @@ ul {
 }
 tr th {
   border: 1px solid brown;
-  background-color: skyblue;
   /* border: 1px solid black; */
   padding: 10px;
   font-size: 3rem;
