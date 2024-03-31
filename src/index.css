@@ -19,7 +19,10 @@ code {
   max-width: var(--fixed-width);
   position: relative;
 }
+button {
+  margin-top: 1rem;
 
+}
 .search-form {
   margin-left: 33rem;
   position: fixed;
@@ -407,9 +410,9 @@ li {
 #edit-exercise form input {
   font-size: 4rem;
 }
+
 .pop {
-  /* margin-top: 4rem; */
-  margin: auto;
+  /* margin: auto; */
   width: 30rem;
   font-size: 4rem;
   padding: 2rem;
