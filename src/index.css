@@ -19,10 +19,7 @@ code {
   max-width: var(--fixed-width);
   position: relative;
 }
-button {
-  margin-top: 1rem;
 
-}
 .search-form {
   margin-left: 33rem;
   position: fixed;
@@ -161,7 +158,7 @@ table tbody h1 {
   width: 35rem;
   font-size: 3rem;
   border-radius: 5px;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 #users-list-frame {
