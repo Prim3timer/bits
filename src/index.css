@@ -492,6 +492,9 @@ label {
   margin-top: 10rem;
   width: 91rem;
 }
+#users-list-frame h2 {
+  margin-left: 50%;
+}
 
 .description {
   width: 30%;
