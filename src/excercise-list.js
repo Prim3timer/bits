@@ -28,9 +28,9 @@ isEdit, setIsEdit}) =>{
         setSearch={setSearch}
         isLoading={isLoading}  
     /> 
-
+    let exListWidth = isEdit ? '100rem' : '136%'
     return (
-        <div id='exercise-list'> 
+        <div id='exercise-list' style={{width: exListWidth}}> 
             {watcher}
         </div>
     )
