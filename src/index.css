@@ -167,13 +167,13 @@ table tbody h1 {
 #user-table {
   position: relative;
   width: 60rem;
-  margin:  2rem 0 4rem 30rem 
+  margin:  2rem 0 2rem 30rem 
 }
 #user-table tbody tr td {
-  border: 3px solid brown;
+  border: 5px solid brown;
 }
 #user-table tbody tr th {
-  border: 3px solid brown;
+  border: 5px solid brown;
 
 }
 
@@ -228,7 +228,7 @@ ul {
   background-color: skyblue;
 }
 #exercise-table tr td{
-  border: 1px solid brown;
+  border: 3px solid brown;
   font-size: 3rem;
   /* padding: 10px; */
   text-align: center;
