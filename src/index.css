@@ -332,19 +332,16 @@ label {
 }
 
 @media screen and (max-width: 576px) {
-  /* #exercise-list {
-    width: 91rem;
-  } */
 
   #exercise-list-mainframe {
     /* width: 110rem; */
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
   #exercise-list-mainframe h2 {
     margin-left: 40rem;
     font-size: 5rem;
    width: 100%;
-   padding: 2rem;
+   padding: 1rem;
   }
 
 #exercise-table {
