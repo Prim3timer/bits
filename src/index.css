@@ -166,8 +166,8 @@ table tbody h1 {
 }
 #user-table {
   position: relative;
-  width: 80rem;
-  margin:  2rem 0 2rem 20rem 
+  width: 60rem;
+  margin:  2rem 0 2rem 30rem 
 }
 #user-table tbody tr td {
   border: 5px solid brown;
@@ -176,15 +176,15 @@ table tbody h1 {
 }
 #user-table tbody tr th {
   border: 5px solid brown;
-  font-size: 5rem;
+  font-size: 3rem;
 
 }
 
 .user-name {
-  width: 90%;
+  width: 80%;
 }
 .user-list{
-  font-size: 3rem;
+  font-size: 5rem;
   margin-top: 8rem;
   margin-left: 50rem;
 }
@@ -214,7 +214,7 @@ ul {
 
 .delete {
   color:navy;
-  /* background-color: burlywood; */
+  width: 20%;
   padding: 1rem;
 }
 .edit {
