@@ -166,8 +166,8 @@ table tbody h1 {
 }
 #user-table {
   position: relative;
-  width: 60rem;
-  margin:  2rem 0 2rem 30rem 
+  width: 80rem;
+  margin:  2rem 0 2rem 20rem 
 }
 #user-table tbody tr td {
   border: 5px solid brown;
@@ -184,7 +184,7 @@ table tbody h1 {
   width: 90%;
 }
 .user-list{
-  font-size: 5rem;
+  font-size: 3rem;
   margin-top: 8rem;
   margin-left: 50rem;
 }
