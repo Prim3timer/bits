@@ -198,8 +198,7 @@ ul {
   width:  116rem;
   max-width: var(--fixed-width);
   list-style-type: none;
-  /*background-color: teal;*/
-  background-color: red;
+  background-color: teal;
   padding: .5rem 0;
   /* justify-content: center; */
   display: grid;
