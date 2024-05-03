@@ -8,7 +8,8 @@ let ControlPanel = ({changer}) => {
             <li 
             onClick={()=>changer('getUsers')}
             >Users Table</li>
-            <li onClick={()=>changer('createExcercise')}
+            <li 
+            onClick={()=>changer('createExcercise')}
             >Create Excercise</li>
             <li onClick={()=>changer('getExcercises')}
             >Excercises Table</li>

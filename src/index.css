@@ -198,12 +198,12 @@ ul {
   width:  116rem;
   max-width: var(--fixed-width);
   list-style-type: none;
-  background-color: teal;
-  /* background-color: red; */
+  /* background-color: teal; */
+  background-color: red;
   padding: .5rem 0;
   /* justify-content: center; */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 450px);
 }
 
 .deliver {
