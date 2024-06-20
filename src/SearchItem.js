@@ -8,6 +8,8 @@ let SearchItem = ({search, setSearch})=> {
             placeholder="Search Logs by name"
             value={search}
             onChange={(e)=> setSearch(e.target.value)}
+
+                // https://www.npmjs.com/package/@react-google-maps/api
             
             />
             
