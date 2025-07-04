@@ -71,6 +71,8 @@ li:hover {
   
 }
 #exercise-list-mainframe {
+  display: flex;
+  flex-direction: column;
   margin-top: 6rem;
   position: absolute;
   width: 116rem;
@@ -198,8 +200,7 @@ ul {
   width:  116rem;
   max-width: var(--fixed-width);
   list-style-type: none;
-  /* background-color: teal; */
-  background-color: red;
+  background-color: teal;
   padding: .5rem 0;
   /* justify-content: center; */
   display: grid;

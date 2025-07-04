@@ -9,7 +9,7 @@ let EditExcercise = ({
     isLoading,
     setIsLoading
 }) => {
-    let [username, setUsername] = useState()
+    let [username, setUsername] = useState()`   `
     let [description, setDescription] = useState()
     let [duration, setDuration] = useState()
     let [date, setDate] = useState()
@@ -35,7 +35,7 @@ useEffect(()=> {
    
 }, [])
 const handleEdit = async (e) => {
-    // e.preventDefault()
+    e.preventDefault()
       const excercise = {
         _id: id,
           description: description ? description : feedBack.description,

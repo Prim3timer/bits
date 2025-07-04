@@ -34,6 +34,7 @@ function App() {
   let fetchExcercises = async () => {
     try {
       const response = await axios.get('https://dosal.onrender.com/excercises')
+      // const response = await axios.get('http://localhost:5500/excercises')
       if (response){
         setIsLoading(false)
         console.log(response.data.excercise)
@@ -92,7 +93,8 @@ function App() {
 
                
               
-                const excercises = await axios.get('https://dosal.onrender.com/excercises')
+                // const excercises = await axios.get('https://dosal.onrender.com/excercises')
+                const excercises = await axios.get('http://localhost:5000/excercises')
                 let theMatch = excercises.data.excercise.find((session) => session.username === excercise.username )
                 if (theMatch){
                   setHeadsUp('Name already has a log!')

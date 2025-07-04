@@ -2,7 +2,7 @@
 let ControlPanel = ({changer}) => {
     
     return (
-        <ul className='flexer'>
+        <ul className='control-panel'>
             <li 
             id='first' onClick={()=>changer('createUser')}>Create User</li>
             <li 
